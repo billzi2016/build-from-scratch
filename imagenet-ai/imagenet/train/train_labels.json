@@ -1,0 +1,47 @@
+[
+  {
+    "file_name": "image_0001.jpg",
+    "class_id": 0,
+    "class_name": "cat"
+  },
+  {
+    "file_name": "image_0002.jpg",
+    "class_id": 1,
+    "class_name": "dog"
+  },
+  {
+    "file_name": "image_0003.jpg",
+    "class_id": 2,
+    "class_name": "car"
+  },
+  {
+    "file_name": "image_0004.jpg",
+    "class_id": 0,
+    "class_name": "cat"
+  },
+  {
+    "file_name": "image_0005.jpg",
+    "class_id": 1,
+    "class_name": "dog"
+  },
+  {
+    "file_name": "image_0006.jpg",
+    "class_id": 2,
+    "class_name": "car"
+  },
+  {
+    "file_name": "image_0007.jpg",
+    "class_id": 0,
+    "class_name": "cat"
+  },
+  {
+    "file_name": "image_0008.jpg",
+    "class_id": 1,
+    "class_name": "dog"
+  },
+  {
+    "file_name": "image_0009.jpg",
+    "class_id": 2,
+    "class_name": "car"
+  }
+]

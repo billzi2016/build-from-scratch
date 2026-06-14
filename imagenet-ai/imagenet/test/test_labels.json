@@ -1,0 +1,32 @@
+[
+  {
+    "file_name": "image_1001.jpg",
+    "class_id": 0,
+    "class_name": "cat"
+  },
+  {
+    "file_name": "image_1002.jpg",
+    "class_id": 1,
+    "class_name": "dog"
+  },
+  {
+    "file_name": "image_1003.jpg",
+    "class_id": 2,
+    "class_name": "car"
+  },
+  {
+    "file_name": "image_1004.jpg",
+    "class_id": 0,
+    "class_name": "cat"
+  },
+  {
+    "file_name": "image_1005.jpg",
+    "class_id": 1,
+    "class_name": "dog"
+  },
+  {
+    "file_name": "image_1006.jpg",
+    "class_id": 2,
+    "class_name": "car"
+  }
+]
