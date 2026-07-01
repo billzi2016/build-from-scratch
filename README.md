@@ -1,66 +1,66 @@
 # build-from-scratch
 
-这是一个“从零实现”导向的教学型工程仓库，用来系统整理算法、模型、工具或流程的 scratch implementation。
+This is a teaching-oriented repository focused on "building from scratch," used to systematically organize scratch implementations of algorithms, models, tools, or workflows.
 
-项目目标不是简单调用现成库跑出结果，而是尽量把核心过程、关键数据结构和运行步骤清楚地展示出来，让读者真正理解实现链路。
+The goal of this project is not to simply call existing libraries and produce results, but to present the core processes, key data structures, and execution steps as clearly as possible so readers can genuinely understand the implementation path.
 
-## 项目目标
+## Project Goals
 
-这个仓库主要解决四件事：
+This repository is mainly intended to solve four things:
 
-- 用尽量少的外部依赖完成常见主题的从零实现
-- 区分“演示调用”和“底层 scratch 实现”
-- 保证代码结构清晰、过程可运行、适合学习和演示
-- 让初学者不仅知道怎么用，还知道底层是怎么做出来的
+- Complete common topics with as few external dependencies as possible
+- Distinguish between "demo-level usage" and "underlying scratch implementation"
+- Keep the code structure clear, the process runnable, and the project suitable for learning and demonstration
+- Help beginners understand not only how to use something, but also how it is built underneath
 
-## 设计原则
+## Design Principles
 
-仓库整体遵循以下原则：
+The repository follows these principles overall:
 
-- 教学优先，不搞炫技式写法
-- 强调过程可观察，而不是只给最终答案
-- 核心逻辑尽量自己实现，避免把关键步骤外包给第三方库
-- 先想清楚架构，再开始编码，避免补丁式堆代码
+- Teaching first, without showing off with flashy code
+- Emphasize observable process rather than only giving the final answer
+- Implement core logic ourselves as much as possible, instead of outsourcing key steps to third-party libraries
+- Think through the architecture before coding, so the codebase does not turn into a pile of patches
 
-## 当前目录
+## Current Directories
 
-- `root_prd.md`：仓库级总规范，定义整体目标、目录约定、实现分层和依赖边界
-- `bpe/`：BPE 相关从零实现与说明
-- `imagenet-ai/`：围绕 ImageNet AI 主题的实现与实验资料
+- `root_prd.md`: repository-level overall specification, defining global goals, directory conventions, implementation layers, and dependency boundaries
+- `bpe/`: scratch implementations and documentation related to BPE
+- `imagenet-ai/`: implementation and experiment materials around the ImageNet AI topic
 
-## 仓库结构约定
+## Repository Structure Convention
 
-对于每一个具体主题，原则上会拆成两层：
+For each specific topic, the project is generally split into two layers:
 
-1. 最外层演示层  
-   用来展示“怎么运行”和“怎么使用”
-2. Scratch 实现层  
-   真正的底层实现，负责把核心逻辑一步一步做出来
+1. Outer demo layer  
+   Used to show how to run and how to use it
+2. Scratch implementation layer  
+   The actual underlying implementation, responsible for building the core logic step by step
 
-这样做的目的，是避免把成熟库套一层壳就误称为“from scratch”。
+The purpose of this design is to avoid wrapping a mature library with a thin shell and then incorrectly calling it "from scratch."
 
-## 适合谁看
+## Who This Is For
 
-这个仓库适合：
+This repository is suitable for:
 
-- 想从底层理解算法或模型的人
-- 想做教学型 Notebook / Demo / 小工程的人
-- 不满足于“会调用”，希望看懂实现过程的人
+- People who want to understand algorithms or models from the ground up
+- People who want to create teaching-oriented Notebooks, demos, or small projects
+- People who are not satisfied with just "knowing how to call it" and want to understand the implementation process
 
-## 阅读建议
+## Suggested Reading Order
 
-建议按下面顺序阅读：
+It is recommended to read in the following order:
 
-1. 先看 `root_prd.md`，了解整个仓库的总设计
-2. 再进入具体主题目录查看对应的 `README.md` 与 `*_prd.md`
-3. 最后运行具体实现，观察中间过程和输出
+1. Start with `root_prd.md` to understand the overall design of the repository
+2. Then enter a specific topic directory and read its corresponding `README.md` and `*_prd.md`
+3. Finally, run the implementation itself and observe the intermediate process and outputs
 
-## 仓库定位总结
+## Repository Positioning Summary
 
-`build-from-scratch` 更像一个长期维护的“从零实现实验室”：
+`build-from-scratch` is more like a long-term maintained "build-from-scratch laboratory":
 
-- 它强调教学清晰度
-- 强调结构化实现
-- 强调把复杂东西拆开讲明白
+- It emphasizes teaching clarity
+- It emphasizes structured implementation
+- It emphasizes breaking down complex things and explaining them clearly
 
-而不是只追求“能跑”或“结果对了就行”。
+Rather than only pursuing "it runs" or "the result is correct."
